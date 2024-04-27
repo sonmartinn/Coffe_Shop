@@ -28,7 +28,7 @@ public class SQLDataAccess {
            //this.conn=DriverManager.getConnection(connectionURL,UserName,PassWord)
             String IntegratedSecurity = "IntegratedSecurity=true";
             String DriverClass = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-            String DriverURL = "jdbc:sqlserver://AD-PC:1433;databaseName=dbCoffeShop;" + IntegratedSecurity;
+            String DriverURL = "jdbc:sqlserver://SONTRUNG:1433;databaseName=dbCoffeeShop;" + IntegratedSecurity;
             Class.forName(DriverClass);    
             this.conn = DriverManager.getConnection(DriverURL);
              System.out.println("Kết nối thành công");

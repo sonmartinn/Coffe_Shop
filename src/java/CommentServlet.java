@@ -32,7 +32,7 @@ public class CommentServlet extends HttpServlet {
 		request.setAttribute("comments", rs);
 
 		// Chuyển hướng sang trang comment.jsp để hiển thị các comment
-		response.sendRedirect("/CuoiKy_Coffee_Shop/index.jsp");
+		response.sendRedirect("/Coffe_Shop/index.jsp");
 	}
 
 }

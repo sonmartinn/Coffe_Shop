@@ -37,11 +37,11 @@ public class login extends HttpServlet{
             httpSession.setAttribute("username", username);
             httpSession.setMaxInactiveInterval(10);
             
-            resp.sendRedirect("/CuoiKy_Coffee_Shop/menuManager.jsp");
+            resp.sendRedirect("Coffe_Shop/menuManager.jsp");
         }
         else
         {
-           resp.sendRedirect("/CuoiKy_Coffee_Shop/index.jsp");       
+           resp.sendRedirect("/Coffe_Shop/index.jsp");       
         }
     }
     
